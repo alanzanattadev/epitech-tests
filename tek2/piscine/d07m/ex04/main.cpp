@@ -37,16 +37,6 @@ static void	test(int valid, int toTest)
 }
 
 
-static void	test(void *valid, void *toTest)
-{
-  std::cout << valid << " == " << toTest << ": ";
-  if (valid == toTest)
-    std::cout << "OK";
-  else
-    std::cout << "BAD";
-  std::cout << std::endl;
-}
-
 int	main()
 {
   Federation::Starfleet::Ship	Entreprise;
@@ -68,8 +58,6 @@ int	main()
   Entreprise.promote(&Kirk);
   Entreprise.setupCore(&C1);
   Twin1.setupCore(&C2);
-
-  test(&C, Falcon.getCore());
 
   Falcon.checkCore();
   Queen.destroy(&Twin1, &Falcon);
