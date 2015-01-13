@@ -13,15 +13,15 @@ BOOOOOOM !
 BOOOOOOM !
 PAN.
 3 == 3: OK
-BOOOOOOM !
-BOOOOOOM !
+PAN.
+PAN.
 1 == 1: OK
 Clip full
 Clip full
 5 == 5: OK
 Firing all ammunitions
 BOOOOOOM !
-BOOOOOOM !
+PAN.
 BOOOOOOM !
 BOOOOOOM !
 BOOOOOOM !
@@ -29,10 +29,10 @@ BOOOOOOM !
 Reloading ...
 5 == 5: OK
 Firing all ammunitions
-BOOOOOOM !
-BOOOOOOM !
-BOOOOOOM !
-BOOOOOOM !
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
 BzzZZzZZZzZ...
 Clip empty, please reload
 0 == 0: OK
@@ -41,17 +41,17 @@ Reloading ...
 0 == 0: OK
 3 == 3: OK
 Firing all ammunitions
-BOOOOOOM !
-BOOOOOOM !
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
 PAN.
 0 == 0: OK
 Reloading ...
 5 == 5: OK
 Firing all ammunitions
-BOOOOOOM !
-BOOOOOOM !
-BOOOOOOM !
-BOOOOOOM !
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
+BzzZZzZZZzZ...
 BzzZZzZZZzZ...
 0 == 0: OK
 
