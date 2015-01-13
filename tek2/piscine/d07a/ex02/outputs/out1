@@ -1,6 +1,8 @@
 Expected : KreogCom 1 initialised
-Your     : Expected : KreogCom 1048576 initialised
-Your     : Expected : KreogCom 1048576 currently at -4 -5
+Your     : KreogCom 1 initialised
+Expected : KreogCom 1048576 initialised
+Your     : KreogCom 1048576 initialised
+Expected : KreogCom 1048576 currently at -4 -5
 Your     : KreogCom 1048576 currently at -4 -5
 Expected : KreogCom 1048576 currently at -4 -5
 Your     : KreogCom 1048576 currently at -4 -5
@@ -10,20 +12,23 @@ Your     : KreogCom 1 currently at 1 2
 Expected : KreogCom 1 currently at 1 2
 Your     : KreogCom 1 currently at 1 2
 Expected : KreogCom 16 initialised
-Your     : elem != 0: OK
+Your     : KreogCom 16 initialised
+elem != 0: OK
 Expected : KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Your     : KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Expected : KreogCom 256 initialised
-Your     : Expected : KreogCom 256 currently at 7 6
+Your     : KreogCom 256 initialised
+Expected : KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Your     : KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Expected : KreogCom 4096 initialised
-Your     : Expected : KreogCom 4096 currently at 8 19
+Your     : KreogCom 4096 initialised
+Expected : KreogCom 4096 currently at 8 19
 KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
