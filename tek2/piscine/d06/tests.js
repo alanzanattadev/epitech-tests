@@ -15,7 +15,7 @@ module.exports = testCase({
 		}
 		else
 		{
-		    exec("./ex00/my_cat inputs/in11 inputs/in12", function(err, stdout, stderr) {
+		    exec("./ex00/my_cat ./ex00/inputs/in11 ./ex00/inputs/in12", function(err, stdout, stderr) {
 			fs.readFile("./ex00/outputs/out1", function(err, data) {
 			    test.equal(stdout, data);
 			    test.done();

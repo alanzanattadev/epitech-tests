@@ -1,0 +1,20 @@
+{
+  "name": "epitech-tests",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanzanattadev/epitech-tests.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "582c964aab19a6359bf80b1012c9666fc782f296",
+  "dependencies": {
+    "nodeunit": "~0.9.0"
+  }
+}

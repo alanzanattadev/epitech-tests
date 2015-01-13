@@ -1,0 +1,13 @@
+#!/bin/sh
+
+if [ $# == 1 ]
+then
+    FPATH=/usr/bin/epitech-tests/tek2/piscine/$1;
+    rm -rf /tmp/epitech-tests;
+    mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
+    cp -r ./ /tmp/epitech-tests/srcs &&
+    cp -r $FPATH/ /tmp/epitech-tests &&
+    nodeunit $FPATH/tests.js
+else
+    echo "you must enter the day name"
+fi
