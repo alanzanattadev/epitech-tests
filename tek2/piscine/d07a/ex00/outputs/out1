@@ -1,0 +1,40 @@
+Expected : Soldier bob reporting 15 stimpaks remaining sir !
+Your     : Soldier bob reporting 15 stimpaks remaining sir !
+Expected : Soldier Gabriel Angelo reporting 2 stimpaks remaining sir !
+Your     : Soldier Gabriel Angelo reporting 2 stimpaks remaining sir !
+Expected : Soldier Wo-Lit reporting 15 stimpaks remaining sir !
+Your     : Soldier Wo-Lit reporting 15 stimpaks remaining sir !
+15 == 15: OK
+20 == 20: OK
+Wo-Lit == Wo-Lit: OK
+2 == 2: OK
+20 == 20: OK
+Expected : Don't be greedy
+Your     : Don't be greedy
+20 == 20: OK
+2 == 2: OK
+Expected : Keep the change.
+Your     : Keep the change.
+21 == 21: OK
+1 == 1: OK
+Expected : Hey boya, did you forget something ?
+Your     : Hey boya, did you forget something ?
+1 == 1: OK
+2 == 2: OK
+Expected : Time to kick some ass and chew bubble gum.
+Your     : Time to kick some ass and chew bubble gum.
+1 == 1: OK
+Expected : Time to kick some ass and chew bubble gum.
+Your     : Time to kick some ass and chew bubble gum.
+0 == 0: OK
+Expected : Mediiiiiic
+Your     : Mediiiiiic
+0 == 0: OK
+Expected : Soldier bob reporting 21 stimpaks remaining sir !
+Your     : Soldier bob reporting 21 stimpaks remaining sir !
+Expected : Soldier Gabriel Angelo reporting 0 stimpaks remaining sir !
+Your     : Soldier Gabriel Angelo reporting 0 stimpaks remaining sir !
+Expected : Soldier Wo-Lit reporting 15 stimpaks remaining sir !
+Your     : Soldier Wo-Lit reporting 15 stimpaks remaining sir !
+
+OK !
