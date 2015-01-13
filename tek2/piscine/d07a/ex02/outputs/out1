@@ -37,22 +37,27 @@ KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Expected : KreogCom 4096 shutting down
-Your     : Expected : KreogCom 256 currently at 7 6
+Your     : KreogCom 4096 shutting down
+Expected : KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Your     : KreogCom 256 currently at 7 6
 KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Expected : KreogCom 256 shutting down
-Your     : Expected : KreogCom 16 currently at 4 5
+Your     : KreogCom 256 shutting down
+Expected : KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Your     : KreogCom 16 currently at 4 5
 KreogCom 1 currently at 1 2
 Expected : KreogCom 16 shutting down
-Your     : Expected : KreogCom 1 currently at 1 2
+Your     : KreogCom 16 shutting down
+Expected : KreogCom 1 currently at 1 2
 Your     : KreogCom 1 currently at 1 2
 0 == 0: OK
 Expected : KreogCom 1048576 shutting down
 KreogCom 1 shutting down
-Your     : 
+Your     : KreogCom 1048576 shutting down
+KreogCom 1 shutting down
+
 OK !
