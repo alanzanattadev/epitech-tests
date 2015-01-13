@@ -58,5 +58,82 @@ module.exports = testCase({
                 }
             });
         }
+    }),
+    'ex02': testCase({
+        'Starfleet Ship': function(test) {
+            exec("/tmp/epitech-tests/test02 1", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex02/outputs/out1", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                                console.log(diff.diffLines(stdout, data.toString()));
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+	},
+        'Indepentant Ship': function(test) {
+	    exec("/tmp/epitech-tests/test02 2", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex02/outputs/out2", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                                console.log(diff.diffLines(stdout, data.toString()));
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+	},
+        'Borg Ship': function(test) {
+            exec("/tmp/epitech-tests/test02 3", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex02/outputs/out3", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                                console.log(diff.diffLines(stdout, data.toString()));
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+        }
     })
 });
