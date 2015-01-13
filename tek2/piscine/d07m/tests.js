@@ -157,12 +157,12 @@ module.exports = testCase({
     }),
     'ex03': testCase({
 	'test': function(test) {
-	    exec("/tmp/epitech-tests/test03", function(err, stdout, stderr) {
+	    exec("/tmp/epitech-tests/test03 | cat -e", function(err, stdout, stderr) {
                 if (err) {
                     test.ok(false);
                     test.done();
                 } else {
-                    fs.readFile("/tmp/epitech-tests/ex03/outputs/out.txt", function(err, data) {
+                    fs.readFile("/tmp/epitech-tests/ex03/outputs/out1", function(err, data) {
                         if (err) {
                             test.ok(false);
                         } else {

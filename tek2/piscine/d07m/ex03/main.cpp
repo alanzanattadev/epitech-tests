@@ -25,11 +25,10 @@ void	test(int valid, int toTest)
 
 void	test(void *valid, void *toTest)
 {
-  std::cout << valid << " == " << toTest << ": ";
   if (valid == toTest)
-    std::cout << "OK";
+    std::cout << "Matching addresses: OK";
   else
-    std::cout << "BAD";
+    std::cout << "Matching addresses: BAD";
   std::cout << std::endl;
 }
 
