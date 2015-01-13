@@ -160,5 +160,32 @@ module.exports = testCase({
                 }
             });
         }
+    }),
+    'ex03': testCase({
+	'test': function(test) {
+	    exec("/tmp/epitech-tests/test03", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex03/outputs/out.txt", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                                console.log(diff.diffLines(stdout, data.toString()));
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+	}
     })
 });
