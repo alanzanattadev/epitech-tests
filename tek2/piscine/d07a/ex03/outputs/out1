@@ -1,0 +1,58 @@
+3 == 3: OK
+5 == 5: OK
+Switching ammo to type : regular
+Switching ammo to type : plasma
+Clip full
+BOOOOOOM !
+4 == 4: OK
+5 == 5: OK
+Firing all ammunitions
+BOOOOOOM !
+PAN.
+PAN.
+BOOOOOOM !
+PAN.
+3 == 3: OK
+PAN.
+PAN.
+1 == 1: OK
+Clip full
+Clip full
+5 == 5: OK
+Firing all ammunitions
+BOOOOOOM !
+PAN.
+PAN.
+BOOOOOOM !
+BOOOOOOM !
+0 == 0: OK
+Reloading ...
+5 == 5: OK
+Firing all ammunitions
+BOOOOOOM !
+PAN.
+PAN.
+BOOOOOOM !
+BzzZZzZZZzZ...
+Clip empty, please reload
+0 == 0: OK
+Reloading ...
+5 == 5: OK
+0 == 0: OK
+3 == 3: OK
+Firing all ammunitions
+PAN.
+PAN.
+PAN.
+0 == 0: OK
+Reloading ...
+5 == 5: OK
+Firing all ammunitions
+BOOOOOOM !
+PAN.
+PAN.
+BOOOOOOM !
+BzzZZzZZZzZ...
+0 == 0: OK
+
+OK !
