@@ -1,0 +1,3 @@
+#!/bin/sh
+
+nodeunit /usr/bin/epitech-tests/tek2/piscine/d07m/tests.js
