@@ -6,7 +6,15 @@ then
     rm -rf /tmp/epitech-tests;
     mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
     cp -r ./ /tmp/epitech-tests/srcs &&
-    cp -r $FPATH/ /tmp/epitech-tests &&
+    cp -r $FPATH/* /tmp/epitech-tests &&
+    for folder in $(find /tmp/epitech-tests/ -maxdepth 1 -mindepth 1 -type d)
+    do
+	if test -e ${folder}/Makefile
+	then
+	    echo "compiling "$folder;
+	    make -C $folder;
+	fi
+    done
     nodeunit $FPATH/tests.js
 else
     echo "you must enter the day name"
