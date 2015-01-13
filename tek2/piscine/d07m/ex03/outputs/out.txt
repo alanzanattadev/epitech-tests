@@ -1,0 +1,55 @@
+The ship USS Entreprise has been finished. It is 289 m in length and 132 m in width.It can go to Warp 6 ! Weapons are set: 20 torpedoes ready.
+The ship USS Spoutnik has been finished. It is 50 m in length and 50 m in width.It can go to Warp 9 ! Weapons are set: 50 torpedoes ready.
+The independant ship Millenium Falcon just finished its construction. It is 20 m in length and 30 m in width.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+We are the Borgs. Lower your shields and surrender yourselves unconditionally.
+Your biological characteristics and technologies will be assimilated.
+Resistance is futile.
+Millenium Falcon: The core is set.
+100 == 100: OK
+150 == 150: OK
+50 == 50: OK
+200 == 200: OK
+Kirk Hammet:  I'm glad to be the captain of the USS Entreprise.
+15 == 15: OK
+20 == 20: OK
+100 == 100: OK
+20 == 20: OK
+3 == 3: OK
+6 == 6: OK
+0x7fff40ff1330 == 0x7fff40ff1330: OK
+Millenium Falcon: The core is stable at the time.
+Firing on target with 20GW frequency.
+Millenium Falcon: The core is unstable at the time.
+150 == 150: OK
+Firing on target with 20GW frequency.
+130 == 130: OK
+20 == 20: OK
+USS Spoutnik: Firing on target. 199 torpedoes remaining.
+USS Entreprise: Firing on target. 1 torpedoes remaining.
+-980 == -980: OK
+5 == 5: OK
+Begin shield re-initialisation... Done. Awaiting further instructions.
+100 == 100: OK
+4 == 4: OK
+Begin shield re-initialisation... Done. Awaiting further instructions.
+3 == 3: OK
+Begin shield re-initialisation... Done. Awaiting further instructions.
+2 == 2: OK
+Begin shield re-initialisation... Done. Awaiting further instructions.
+1 == 1: OK
+Begin shield re-initialisation... Done. Awaiting further instructions.
+0 == 0: OK
+100 == 100: OK
+USS Entreprise: No enough torpedoes to fire, Kirk Hammet !
+100 == 100: OK
+USS Entreprise: Firing on target. 0 torpedoes remaining.
+50 == 50: OK
+USS Entreprise: No more torpedo to fire, Kirk Hammet !
+50 == 50: OK
+0 == 0: OK
+Energy cells depleted, shield weakening.
+0 == 0: OK
+50 == 50: OK
