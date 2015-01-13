@@ -22,7 +22,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -49,7 +48,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -76,7 +74,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -101,7 +98,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -126,7 +122,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -151,7 +146,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
@@ -178,7 +172,6 @@ module.exports = testCase({
                                     var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
                                     process.stderr.write(part.value[color]);
                                 });
-                                console.log(diff.diffLines(stdout, data.toString()));
                             }
                             test.equal(stdout, data.toString());
                         }
