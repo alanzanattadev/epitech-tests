@@ -1,0 +1,86 @@
+1 == 1: OK
+1 == 1: OK
+0 == 0: OK
+A-01 == A-01: OK
+Armstrong == Armstrong: OK
+Mark1-5 == Mark1-5: OK
+Expected : 	[Parts] Arms A-01 status : OK
+Your     : 	[Parts] Arms A-01 status : OK
+Expected : 	[Parts] Arms Armstrong status : OK
+Your     : 	[Parts] Arms Armstrong status : OK
+Expected : 	[Parts] Arms Mark1-5 status : KO
+Your     : 	[Parts] Arms Mark1-5 status : KO
+1 == 1: OK
+1 == 1: OK
+0 == 0: OK
+L-01 == L-01: OK
+Strongleg == Strongleg: OK
+Mark1-3 == Mark1-3: OK
+Expected : 	[Parts] Legs L-01 status : OK
+Your     : 	[Parts] Legs L-01 status : OK
+Expected : 	[Parts] Legs Strongleg status : OK
+Your     : 	[Parts] Legs Strongleg status : OK
+Expected : 	[Parts] Legs Mark1-3 status : KO
+Your     : 	[Parts] Legs Mark1-3 status : KO
+1 == 1: OK
+1 == 1: OK
+0 == 0: OK
+H-01 == H-01: OK
+Header == Header: OK
+Mark1-1 == Mark1-1: OK
+Expected : 	[Parts] Head H-01 status : OK
+Your     : 	[Parts] Head H-01 status : OK
+Expected : 	[Parts] Head Header status : OK
+Your     : 	[Parts] Head Header status : OK
+Expected : 	[Parts] Head Mark1-1 status : KO
+Your     : 	[Parts] Head Mark1-1 status : KO
+1 == 1: OK
+Expected : [KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Your     : [KoalaBot] Bob-01
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+1 == 1: OK
+Expected : [KoalaBot] Terminator
+	[Parts] Arms Armstrong status : OK
+	[Parts] Legs Strongleg status : OK
+	[Parts] Head Header status : OK
+Your     : [KoalaBot] Terminator
+	[Parts] Arms Armstrong status : OK
+	[Parts] Legs Strongleg status : OK
+	[Parts] Head Header status : OK
+0 == 0: OK
+Expected : [KoalaBot] Terminator
+	[Parts] Arms Armstrong status : OK
+	[Parts] Legs Mark1-3 status : KO
+	[Parts] Head Header status : OK
+Your     : [KoalaBot] Terminator
+	[Parts] Arms Armstrong status : OK
+	[Parts] Legs Mark1-3 status : KO
+	[Parts] Head Header status : OK
+1 == 1: OK
+Expected : [KoalaBot] Terminator
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+Your     : [KoalaBot] Terminator
+	[Parts] Arms A-01 status : OK
+	[Parts] Legs L-01 status : OK
+	[Parts] Head H-01 status : OK
+1 == 1: OK
+0 == 0: OK
+1 == 1: OK
+Armstrong == Armstrong: OK
+Mark1-3 == Mark1-3: OK
+Header == Header: OK
+Expected : 	[Parts] Arms Armstrong status : OK
+Your     : 	[Parts] Arms Armstrong status : OK
+Expected : 	[Parts] Legs Mark1-3 status : KO
+Your     : 	[Parts] Legs Mark1-3 status : KO
+Expected : 	[Parts] Head Header status : OK
+Your     : 	[Parts] Head Header status : OK
+
+OK !
