@@ -1,0 +1,146 @@
+Expected : Droid '' Activated$
+Your     : Droid '' Activated$
+Result   : OK$
+$
+Expected : Droid 'R2D2' Activated$
+Your     : Droid 'R2D2' Activated$
+Result   : OK$
+$
+Expected : Droid 'R2D2' Activated, Memory Dumped$
+Your     : Droid 'R2D2' Activated, Memory Dumped$
+Result   : OK$
+$
+Expected : Droid 'Wally' Activated$
+Your     : Droid 'Wally' Activated$
+Result   : OK$
+$
+Expected : Droid '', Standing by, 50$
+Your     : Droid '', Standing by, 50$
+Result   : OK$
+$
+Expected : Droid 'R2D2', Standing by, 50$
+Your     : Droid 'R2D2', Standing by, 50$
+Result   : OK$
+$
+Expected : Droid 'R2D2', Standing by, 50$
+Your     : Droid 'R2D2', Standing by, 50$
+Result   : OK$
+$
+true == true: OK$
+$
+false == false: OK$
+$
+Standing by == Standing by: OK$
+$
+BIP BIP == BIP BIP: OK$
+$
+Standing by == Standing by: OK$
+$
+false == false: OK$
+$
+true == true: OK$
+$
+50 == 50: OK$
+$
+50 == 50: OK$
+$
+43 == 43: OK$
+$
+250 == 250: OK$
+$
+0 == 0: OK$
+$
+243 == 243: OK$
+$
+100 == 100: OK$
+$
+100 == 100: OK$
+$
+193 == 193: OK$
+$
+25 == 25: OK$
+$
+15 == 15: OK$
+$
+Standing by == Standing by: OK$
+$
+SLAY THE ORCS == SLAY THE ORCS: OK$
+$
+Standing by == Standing by: OK$
+$
+42 == 42: OK$
+$
+R2D2 == R2D2: OK$
+$
+r2d2 v2.0 == r2d2 v2.0: OK$
+$
+SLAY THE ORCS == SLAY THE ORCS: OK$
+$
+Wally == Wally: OK$
+$
+50 == 50: OK$
+$
+25 == 25: OK$
+$
+15 == 15: OK$
+$
+Standing by == Standing by: OK$
+$
+Expected : Droid 'Wally', Standing by, 50$
+Your     : Droid 'Wally', Standing by, 50$
+Result   : OK$
+$
+Expected : Droid '', Standing by, 100$
+Your     : Droid '', Standing by, 100$
+Result   : OK$
+$
+Expected : Droid 'r2d2 v2.0', BIP BIP, 42$
+Your     : Droid 'r2d2 v2.0', BIP BIP, 42$
+Result   : OK$
+$
+Expected : Droid '', SLAY THE ORCS, 50$
+Your     : Droid '', SLAY THE ORCS, 50$
+Result   : OK$
+$
+true == true: OK$
+$
+true == true: OK$
+$
+false == false: OK$
+$
+false == false: OK$
+$
+Expected : Droid 'Wally', Standing by, 50$
+Your     : Droid 'Wally', Standing by, 50$
+Result   : OK$
+$
+Expected : Droid 'Wally' Activated, Memory Dumped$
+Your     : Droid 'Wally' Activated, Memory Dumped$
+Result   : OK$
+$
+true == true: OK$
+$
+Expected : Droid 'Wally', Standing by, 50$
+Your     : Droid 'Wally', Standing by, 50$
+Result   : OK$
+$
+50 == 50: OK$
+$
+100 == 100: OK$
+$
+Expected : $
+Droid 'Wally' Destroyed$
+Droid 'Wally' Destroyed$
+Droid 'Wally' Destroyed$
+Droid 'r2d2 v2.0' Destroyed$
+Droid '' Destroyed$
+Your     : $
+Droid 'Wally' Destroyed$
+Droid 'Wally' Destroyed$
+Droid 'Wally' Destroyed$
+Droid 'r2d2 v2.0' Destroyed$
+Droid '' Destroyed$
+Result   : OK$
+$
+$
+OK !$
