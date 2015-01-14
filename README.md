@@ -10,5 +10,9 @@
 * sudo npm install
 
 ## Utilisation
+#### Tester
 * cd [depot du jour (ex: "rendu/piscine_cpp_d07m/")]
 * tek [jour (ex: "d07m")]
+
+#### Update
+* tek update
