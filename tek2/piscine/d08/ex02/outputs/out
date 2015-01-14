@@ -1,0 +1,178 @@
+Test 1:$
+true == true: OK$
+$
+Test 2:$
+false == false: OK$
+$
+Test 3:$
+true == true: OK$
+$
+Test 4:$
+false == false: OK$
+$
+Test 5:$
+true == true: OK$
+$
+Test 6:$
+false == false: OK$
+$
+Test 7:$
+true == true: OK$
+$
+Test 8:$
+false == false: OK$
+$
+Test 9:$
+true == true: OK$
+$
+Test 10:$
+false == false: OK$
+$
+Test 11:$
+true == true: OK$
+$
+Test 12:$
+false == false: OK$
+$
+Test 13:$
+true == true: OK$
+$
+Test 14:$
+false == false: OK$
+$
+Test 15:$
+true == true: OK$
+$
+Test 16:$
+false == false: OK$
+$
+Test 17:$
+true == true: OK$
+$
+Test 18:$
+false == false: OK$
+$
+Test 19:$
+true == true: OK$
+$
+Test 20:$
+false == false: OK$
+$
+Droid 'D1' Activated$
+Droid 'D2' Activated$
+Droid 'D1' Activated, Memory Dumped$
+Droid 'D4' Activated$
+Test 21:$
+50 == 50: OK$
+$
+Test 22:$
+50 == 50: OK$
+$
+Test 23:$
+50 == 50: OK$
+$
+Test 24:$
+95 == 95: OK$
+$
+Test 25:$
+0 == 0: OK$
+$
+Test 26:$
+Standing by == Standing by: OK$
+$
+Test 27:$
+false == false: OK$
+$
+Test 28:$
+85 == 85: OK$
+$
+Test 29:$
+120 == 120: OK$
+$
+Test 30:$
+HELP ME - Failed! == HELP ME - Failed!: OK$
+$
+Test 31:$
+true == true: OK$
+$
+Test 32:$
+75 == 75: OK$
+$
+Test 33:$
+150 == 150: OK$
+$
+Test 34:$
+DESTROY THE ORCS - Completed! == DESTROY THE ORCS - Completed!: OK$
+$
+Test 35:$
+true == true: OK$
+$
+Test 36:$
+true == true: OK$
+$
+Test 37:$
+true == true: OK$
+$
+Test 38:$
+true == true: OK$
+$
+Test 39:$
+true == true: OK$
+$
+Test 40:$
+true == true: OK$
+$
+Test 41:$
+true == true: OK$
+$
+Test 42:$
+5 == 5: OK$
+$
+Test 43:$
+157 == 157: OK$
+$
+Test 44:$
+DESTROY THE ORCS - Completed! == DESTROY THE ORCS - Completed!: OK$
+$
+Test 45:$
+false == false: OK$
+$
+Test 46:$
+0 == 0: OK$
+$
+Test 47:$
+157 == 157: OK$
+$
+Test 48:$
+Battery Low == Battery Low: OK$
+$
+Test 49:$
+10 == 10: OK$
+$
+Test 50:$
+false == false: OK$
+$
+Test 51:$
+0 == 0: OK$
+$
+Test 52:$
+157 == 157: OK$
+$
+Test 53:$
+Battery Low == Battery Low: OK$
+$
+Droid 'rudolf' Activated$
+Droid 'gaston' Activated$
+Droid 'rudolf', take a coffee - Failed!, 80$
+Droid 'rudolf', Run Away - Completed!, 50$
+Droid 'rudolf', Shoot some ennemies - Completed!, 30$
+Droid 'rudolf', Shoot some ennemies - Completed!, 10$
+Droid 'rudolf', Battery Low, 0$
+Droid 'gaston' Destroyed$
+Droid 'rudolf' Destroyed$
+Droid 'D1' Destroyed$
+Droid 'D1' Destroyed$
+Droid 'D2' Destroyed$
+Droid 'D1' Destroyed$
+$
+OK !$
