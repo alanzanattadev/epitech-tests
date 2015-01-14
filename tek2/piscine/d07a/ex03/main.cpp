@@ -5,7 +5,7 @@
 // Login   <brunne_l@epitech.net>
 //
 // Started on  Tue Jan 15 17:38:55 2013 louis brunner
-// Last update Wed Jan 16 01:03:40 2013 louis brunner
+// Last update Wed Jan 14 01:11:00 2015 matthieu kern
 //
 
 #include "Phaser.h"
@@ -16,7 +16,6 @@
 static int	error = 0;
 static bool	quitOnFail = false;
 
-const	int	Phaser::Empty = 0;
 /*
 ** Definition des sons ICI
 */
