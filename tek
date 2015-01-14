@@ -2,20 +2,26 @@
 
 if [ $# == 1 ]
 then
-    FPATH=/usr/bin/epitech-tests/tek2/piscine/$1;
-    rm -rf /tmp/epitech-tests;
-    mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
-    cp -r ./ /tmp/epitech-tests/srcs &&
-    cp -r $FPATH/* /tmp/epitech-tests &&
-    for folder in $(find /tmp/epitech-tests/ -maxdepth 1 -mindepth 1 -type d)
-    do
-	if test -e ${folder}/Makefile
-	then
-	    echo "compiling "$folder;
-	    make -C $folder;
-	fi
-    done
-    nodeunit --reporter=nested $FPATH/tests.js
+    if [ $1 = "update" ]
+    then
+	cd /usr/bin/epitech-tests/;
+	git pull origin master;
+    else
+	FPATH=/usr/bin/epitech-tests/tek2/piscine/$1;
+	rm -rf /tmp/epitech-tests;
+	mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
+	cp -r ./ /tmp/epitech-tests/srcs &&
+	cp -r $FPATH/* /tmp/epitech-tests &&
+	for folder in $(find /tmp/epitech-tests/ -maxdepth 1 -mindepth 1 -type d)
+	do
+	    if test -e ${folder}/Makefile
+	    then
+		echo "compiling "$folder;
+		make -C $folder;
+	    fi
+	done
+	nodeunit --reporter=nested $FPATH/tests.js
+    fi
 else
     echo "you must enter the day name"
 fi
