@@ -1,0 +1,186 @@
+Test 1:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 2:$
+Expected : DroidMemory '1638893237', 123$
+Your     : DroidMemory '1638893237', 123$
+Result   : OK$
+$
+Test 3:$
+Expected : DroidMemory '1638893237', 123$
+Your     : DroidMemory '1638893237', 123$
+Result   : OK$
+$
+Test 4:$
+0 == 0: OK$
+$
+Test 5:$
+123 == 123: OK$
+$
+Test 6:$
+123 == 123: OK$
+$
+Test 7:$
+321 == 321: OK$
+$
+Test 8:$
+292616681 == 292616681: OK$
+$
+Test 9:$
+1638893237 == 1638893237: OK$
+$
+Test 10:$
+1638893237 == 1638893237: OK$
+$
+Test 11:$
+16962 == 16962: OK$
+$
+Test 12:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 13:$
+Expected : DroidMemory '1638893237', 123$
+Your     : DroidMemory '1638893237', 123$
+Result   : OK$
+$
+Test 14:$
+Expected : DroidMemory '16962', 321$
+Your     : DroidMemory '16962', 321$
+Result   : OK$
+$
+Test 15:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 16:$
+Expected : DroidMemory '1638893237', 123$
+Your     : DroidMemory '1638893237', 123$
+Result   : OK$
+$
+Test 17:$
+Expected : DroidMemory '1893678366', 444$
+Your     : DroidMemory '1893678366', 444$
+Result   : OK$
+$
+Test 18:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 19:$
+Expected : DroidMemory '16962', 567$
+Your     : DroidMemory '16962', 567$
+Result   : OK$
+$
+Test 20:$
+Expected : DroidMemory '1638909175', 444$
+Your     : DroidMemory '1638909175', 444$
+Result   : OK$
+$
+Test 21:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 22:$
+Expected : DroidMemory '16962', 567$
+Your     : DroidMemory '16962', 567$
+Result   : OK$
+$
+Test 23:$
+Expected : DroidMemory '1893695324', 1011$
+Your     : DroidMemory '1893695324', 1011$
+Result   : OK$
+$
+Test 24:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 25:$
+Expected : DroidMemory '16962', 567$
+Your     : DroidMemory '16962', 567$
+Result   : OK$
+$
+Test 26:$
+Expected : DroidMemory '292616688', 93$
+Your     : DroidMemory '292616688', 93$
+Result   : OK$
+$
+Test 27:$
+Expected : DroidMemory '292616681', 0$
+Your     : DroidMemory '292616681', 0$
+Result   : OK$
+$
+Test 28:$
+Expected : DroidMemory '16962', 567$
+Your     : DroidMemory '16962', 567$
+Result   : OK$
+$
+Test 29:$
+Expected : DroidMemory '292616688', 93$
+Your     : DroidMemory '292616688', 93$
+Result   : OK$
+$
+Test 30:$
+Expected : DroidMemory '16987', 660$
+Your     : DroidMemory '16987', 660$
+Result   : OK$
+$
+Test 31:$
+Expected : Droid 'R2D2' Activated$
+Your     : Droid 'R2D2' Activated$
+Result   : OK$
+$
+Test 32:$
+Expected : Droid 'Wally' Activated$
+Your     : Droid 'Wally' Activated$
+Result   : OK$
+$
+Test 33:$
+Expected : Droid 'R2D2', Standing by, 50$
+Your     : Droid 'R2D2', Standing by, 50$
+Result   : OK$
+$
+Test 34:$
+Expected : Droid 'Wally', Standing by, 50$
+Your     : Droid 'Wally', Standing by, 50$
+Result   : OK$
+$
+Test 35:$
+true == true: OK$
+$
+Test 36:$
+Standing by == Standing by: OK$
+$
+Test 37:$
+BIP BIP == BIP BIP: OK$
+$
+Test 38:$
+Standing by == Standing by: OK$
+$
+Test 39:$
+false == false: OK$
+$
+Test 40:$
+false == false: OK$
+$
+Test 41:$
+true == true: OK$
+$
+Test 42:$
+Expected : $
+Droid 'Wally' Destroyed$
+Droid 'R2D2' Destroyed$
+Your     : $
+Droid 'Wally' Destroyed$
+Droid 'R2D2' Destroyed$
+Result   : OK$
+$
+$
+OK !$
