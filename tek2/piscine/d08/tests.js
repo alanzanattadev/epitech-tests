@@ -134,5 +134,31 @@ module.exports = testCase({
                 }
             });
         }
+    }),
+    'ex05': testCase({
+        'DroidFactory': function(test) {
+            exec("/tmp/epitech-tests/test05 | cat -e", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex05/outputs/out1", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+        }
     })
 });
