@@ -5,12 +5,27 @@
 // Login <didier_m@epitech.net>
 // 
 // Started on  Thu Jan 12 13:54:44 2012 maxime didier
-// Last update Thu Jan 12 19:06:54 2012 maxime didier
+// Last update Thu Jan 15 23:52:31 2015 matthieu kern
 //
 
 #include <iostream>
 #include "Warrior.hh"
 #include "Paladin.hh"
+#include "Warrior.hh"
+#include "Paladin.hh"
+#include "Warrior.hh"
+#include "Paladin.hh"
+#include "Warrior.hh"
+#include "Paladin.hh"
+#include "Priest.hh"
+#include "Mage.hh"
+#include "Character.hh"
+#include "Priest.hh"
+#include "Mage.hh"
+#include "Character.hh"
+#include "Priest.hh"
+#include "Mage.hh"
+#include "Character.hh"
 
 using namespace std;
 
