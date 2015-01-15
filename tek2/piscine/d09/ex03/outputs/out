@@ -1,0 +1,953 @@
+##############################
+Character(as Character)
+(creation)
+CharacterCharacter Created
+[ CloseAttack() ]
+CharacterCharacter strikes with a wood stick
+Value: 15
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+CharacterCharacter launches a stone
+Value: 10
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+CharacterCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+CharacterCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+CharacterCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+CharacterCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+CharacterCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Warrior(as Warrior)
+(creation)
+WarriorWarrior Created
+I'm WarriorWarrior KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+[ CloseAttack() ]
+WarriorWarrior strikes with his hammer
+Value: 32
+Range = CLOSE
+PV = 100
+power = 70
+------------------------------
+[ RangeAttack() ]
+WarriorWarrior intercepts
+Value: 0
+Range = CLOSE
+PV = 100
+power = 60
+------------------------------
+[ TakeDamage(100) ]
+WarriorWarrior out of combat
+Range = CLOSE
+PV = 0
+power = 60
+------------------------------
+[ Heal() ]
+WarriorWarrior takes a potion
+Range = CLOSE
+PV = 50
+power = 60
+------------------------------
+>> Dummy actions to empty mana <<
+WarriorWarrior strikes with his hammer
+WarriorWarrior intercepts
+WarriorWarrior out of power
+WarriorWarrior intercepts
+WarriorWarrior out of power
+WarriorWarrior intercepts
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+WarriorWarrior out of power
+------------------------------
+
+[ RestorePower() ]
+WarriorWarrior eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+WarriorWarrior takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+WarriorWarrior out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Warrior(as Character)
+(creation)
+WarriorCharacter Created
+I'm WarriorCharacter KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+[ CloseAttack() ]
+WarriorCharacter strikes with a wood stick
+Value: 22
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+WarriorCharacter launches a stone
+Value: 17
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+WarriorCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+WarriorCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+WarriorCharacter strikes with a wood stick
+WarriorCharacter launches a stone
+WarriorCharacter strikes with a wood stick
+WarriorCharacter launches a stone
+WarriorCharacter strikes with a wood stick
+WarriorCharacter launches a stone
+WarriorCharacter strikes with a wood stick
+WarriorCharacter launches a stone
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+WarriorCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+WarriorCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+WarriorCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+WarriorCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Mage(as Mage)
+(creation)
+MageMage Created
+MageMage teleported
+[ CloseAttack() ]
+MageMage blinks
+Value: 0
+Range = RANGE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+MageMage launches a fire ball
+Value: 31
+Range = RANGE
+PV = 100
+power = 65
+------------------------------
+[ TakeDamage(100) ]
+MageMage out of combat
+Range = RANGE
+PV = 0
+power = 65
+------------------------------
+[ Heal() ]
+MageMage takes a potion
+Range = RANGE
+PV = 50
+power = 65
+------------------------------
+>> Dummy actions to empty mana <<
+MageMage blinks
+MageMage launches a fire ball
+MageMage blinks
+MageMage out of power
+MageMage blinks
+MageMage out of power
+MageMage blinks
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+MageMage out of power
+------------------------------
+
+[ RestorePower() ]
+MageMage takes a mana potion
+Range = RANGE
+PV = 50
+power = 62
+------------------------------
+[ TakeDamage(10) ]
+MageMage takes 10 damage
+Range = RANGE
+PV = 40
+power = 62
+------------------------------
+[ TakeDamage(90) ]
+MageMage out of combat
+Range = RANGE
+PV = 0
+power = 62
+------------------------------
+##############################
+Mage(as Character)
+(creation)
+MageCharacter Created
+MageCharacter teleported
+[ CloseAttack() ]
+MageCharacter strikes with a wood stick
+Value: 16
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+MageCharacter launches a stone
+Value: 11
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+MageCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+MageCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+MageCharacter strikes with a wood stick
+MageCharacter launches a stone
+MageCharacter strikes with a wood stick
+MageCharacter launches a stone
+MageCharacter strikes with a wood stick
+MageCharacter launches a stone
+MageCharacter strikes with a wood stick
+MageCharacter launches a stone
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+MageCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+MageCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+MageCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+MageCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Priest(as Priest)
+(creation)
+PriestPriest Created
+PriestPriest teleported
+PriestPriest enters in the order
+[ CloseAttack() ]
+PriestPriest uses a spirit explosion
+Value: 31
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PriestPriest launches a fire ball
+Value: 41
+Range = CLOSE
+PV = 100
+power = 65
+------------------------------
+[ TakeDamage(100) ]
+PriestPriest out of combat
+Range = CLOSE
+PV = 0
+power = 65
+------------------------------
+[ Heal() ]
+PriestPriest casts a little heal spell
+Range = CLOSE
+PV = 70
+power = 55
+------------------------------
+>> Dummy actions to empty mana <<
+PriestPriest uses a spirit explosion
+PriestPriest launches a fire ball
+PriestPriest uses a spirit explosion
+PriestPriest out of power
+PriestPriest uses a spirit explosion
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+PriestPriest out of power
+------------------------------
+
+[ RestorePower() ]
+PriestPriest takes a mana potion
+Range = CLOSE
+PV = 70
+power = 92
+------------------------------
+[ TakeDamage(10) ]
+PriestPriest takes 10 damage
+Range = CLOSE
+PV = 60
+power = 92
+------------------------------
+[ TakeDamage(90) ]
+PriestPriest out of combat
+Range = CLOSE
+PV = 0
+power = 92
+------------------------------
+##############################
+Priest(as Mage)
+(creation)
+PriestMage Created
+PriestMage teleported
+PriestMage enters in the order
+[ CloseAttack() ]
+PriestMage blinks
+Value: 0
+Range = RANGE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PriestMage launches a fire ball
+Value: 41
+Range = RANGE
+PV = 100
+power = 65
+------------------------------
+[ TakeDamage(100) ]
+PriestMage out of combat
+Range = RANGE
+PV = 0
+power = 65
+------------------------------
+[ Heal() ]
+PriestMage takes a potion
+Range = RANGE
+PV = 50
+power = 65
+------------------------------
+>> Dummy actions to empty mana <<
+PriestMage blinks
+PriestMage launches a fire ball
+PriestMage blinks
+PriestMage out of power
+PriestMage blinks
+PriestMage out of power
+PriestMage blinks
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+PriestMage out of power
+------------------------------
+
+[ RestorePower() ]
+PriestMage takes a mana potion
+Range = RANGE
+PV = 50
+power = 92
+------------------------------
+[ TakeDamage(10) ]
+PriestMage takes 10 damage
+Range = RANGE
+PV = 40
+power = 92
+------------------------------
+[ TakeDamage(90) ]
+PriestMage out of combat
+Range = RANGE
+PV = 0
+power = 92
+------------------------------
+##############################
+Priest(as Character)
+(creation)
+PriestCharacter Created
+PriestCharacter teleported
+PriestCharacter enters in the order
+[ CloseAttack() ]
+PriestCharacter strikes with a wood stick
+Value: 14
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PriestCharacter launches a stone
+Value: 9
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+PriestCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+PriestCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+PriestCharacter strikes with a wood stick
+PriestCharacter launches a stone
+PriestCharacter strikes with a wood stick
+PriestCharacter launches a stone
+PriestCharacter strikes with a wood stick
+PriestCharacter launches a stone
+PriestCharacter strikes with a wood stick
+PriestCharacter launches a stone
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+PriestCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+PriestCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+PriestCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+PriestCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Paladin(as Paladin)
+(creation)
+PaladinPaladin Created
+I'm PaladinPaladin KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+PaladinPaladin teleported
+PaladinPaladin enters in the order
+the light falls on PaladinPaladin
+[ CloseAttack() ]
+PaladinPaladin strikes with his hammer
+Value: 29
+Range = CLOSE
+PV = 100
+power = 70
+------------------------------
+[ RangeAttack() ]
+PaladinPaladin launches a fire ball
+Value: 30
+Range = CLOSE
+PV = 100
+power = 45
+------------------------------
+[ TakeDamage(100) ]
+PaladinPaladin out of combat
+Range = CLOSE
+PV = 0
+power = 45
+------------------------------
+[ Heal() ]
+PaladinPaladin casts a little heal spell
+Range = CLOSE
+PV = 70
+power = 35
+------------------------------
+>> Dummy actions to empty mana <<
+PaladinPaladin strikes with his hammer
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+PaladinPaladin out of power
+------------------------------
+
+[ RestorePower() ]
+PaladinPaladin eats
+Range = CLOSE
+PV = 70
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+PaladinPaladin takes 10 damage
+Range = CLOSE
+PV = 60
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+PaladinPaladin out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Paladin(as Priest)
+(creation)
+PaladinPriest Created
+I'm PaladinPriest KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+PaladinPriest teleported
+PaladinPriest enters in the order
+the light falls on PaladinPriest
+[ CloseAttack() ]
+PaladinPriest uses a spirit explosion
+Value: 20
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PaladinPriest launches a fire ball
+Value: 30
+Range = CLOSE
+PV = 100
+power = 65
+------------------------------
+[ TakeDamage(100) ]
+PaladinPriest out of combat
+Range = CLOSE
+PV = 0
+power = 65
+------------------------------
+[ Heal() ]
+PaladinPriest casts a little heal spell
+Range = CLOSE
+PV = 70
+power = 55
+------------------------------
+>> Dummy actions to empty mana <<
+PaladinPriest uses a spirit explosion
+PaladinPriest launches a fire ball
+PaladinPriest uses a spirit explosion
+PaladinPriest out of power
+PaladinPriest uses a spirit explosion
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+PaladinPriest out of power
+------------------------------
+
+[ RestorePower() ]
+PaladinPriest takes a mana potion
+Range = CLOSE
+PV = 70
+power = 60
+------------------------------
+[ TakeDamage(10) ]
+PaladinPriest takes 10 damage
+Range = CLOSE
+PV = 60
+power = 60
+------------------------------
+[ TakeDamage(90) ]
+PaladinPriest out of combat
+Range = CLOSE
+PV = 0
+power = 60
+------------------------------
+##############################
+Paladin(as Mage)
+(creation)
+PaladinMage Created
+I'm PaladinMage KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+PaladinMage teleported
+PaladinMage enters in the order
+the light falls on PaladinMage
+[ CloseAttack() ]
+PaladinMage blinks
+Value: 0
+Range = RANGE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PaladinMage launches a fire ball
+Value: 30
+Range = RANGE
+PV = 100
+power = 65
+------------------------------
+[ TakeDamage(100) ]
+PaladinMage out of combat
+Range = RANGE
+PV = 0
+power = 65
+------------------------------
+[ Heal() ]
+PaladinMage takes a potion
+Range = RANGE
+PV = 50
+power = 65
+------------------------------
+>> Dummy actions to empty mana <<
+PaladinMage blinks
+PaladinMage launches a fire ball
+PaladinMage blinks
+PaladinMage out of power
+PaladinMage blinks
+PaladinMage out of power
+PaladinMage blinks
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+PaladinMage out of power
+------------------------------
+
+[ RestorePower() ]
+PaladinMage takes a mana potion
+Range = RANGE
+PV = 50
+power = 60
+------------------------------
+[ TakeDamage(10) ]
+PaladinMage takes 10 damage
+Range = RANGE
+PV = 40
+power = 60
+------------------------------
+[ TakeDamage(90) ]
+PaladinMage out of combat
+Range = RANGE
+PV = 0
+power = 60
+------------------------------
+##############################
+Paladin(as Warrior)
+(creation)
+PaladinWarrior Created
+I'm PaladinWarrior KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+PaladinWarrior teleported
+PaladinWarrior enters in the order
+the light falls on PaladinWarrior
+[ CloseAttack() ]
+PaladinWarrior strikes with his hammer
+Value: 29
+Range = CLOSE
+PV = 100
+power = 70
+------------------------------
+[ RangeAttack() ]
+PaladinWarrior intercepts
+Value: 0
+Range = CLOSE
+PV = 100
+power = 60
+------------------------------
+[ TakeDamage(100) ]
+PaladinWarrior out of combat
+Range = CLOSE
+PV = 0
+power = 60
+------------------------------
+[ Heal() ]
+PaladinWarrior takes a potion
+Range = CLOSE
+PV = 50
+power = 60
+------------------------------
+>> Dummy actions to empty mana <<
+PaladinWarrior strikes with his hammer
+PaladinWarrior intercepts
+PaladinWarrior out of power
+PaladinWarrior intercepts
+PaladinWarrior out of power
+PaladinWarrior intercepts
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+PaladinWarrior out of power
+------------------------------
+
+[ RestorePower() ]
+PaladinWarrior eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+PaladinWarrior takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+PaladinWarrior out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------
+##############################
+Paladin(as Character)
+(creation)
+PaladinCharacter Created
+I'm PaladinCharacter KKKKKKKKKKRRRRRRRRRRRRRREEEEEEEEOOOOOOORRRRGGGGGGG
+PaladinCharacter teleported
+PaladinCharacter enters in the order
+the light falls on PaladinCharacter
+[ CloseAttack() ]
+PaladinCharacter strikes with a wood stick
+Value: 19
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+PaladinCharacter launches a stone
+Value: 14
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+PaladinCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+PaladinCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+PaladinCharacter strikes with a wood stick
+PaladinCharacter launches a stone
+PaladinCharacter strikes with a wood stick
+PaladinCharacter launches a stone
+PaladinCharacter strikes with a wood stick
+PaladinCharacter launches a stone
+PaladinCharacter strikes with a wood stick
+PaladinCharacter launches a stone
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+PaladinCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+PaladinCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+PaladinCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+PaladinCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------

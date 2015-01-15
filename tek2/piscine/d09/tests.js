@@ -108,5 +108,31 @@ module.exports = testCase({
                 }
             });
         }
+    }),
+    'ex03': testCase({
+        'Paladin': function(test) {
+            exec("/tmp/epitech-tests/test03", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex03/outputs/out", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+        }
     })
 });
