@@ -1,11 +1,34 @@
 #!/bin/sh
 
+function displayHelp {
+    echo -e "tek [OPTIONS...] : a small script that allows you to"
+    echo -e "check your projects with some unittests."
+    echo -e ""
+    echo -e "\ttek [PROJECT NAME]"
+    echo -e "\t    Run all the tests for the given project and"
+    echo -e "\t    informs you of which tests doesn't pass the"
+    echo -e "\t    assertions."
+    echo -e "\t    If you program pass all the tests, it does"
+    echo -e "\t    not mean that you gonna get all the points"
+    echo -e "\t    when corrected!"
+    echo -e ""
+    echo -e "\ttek update"
+    echo -e "\t    Check if new tests are available, and if so"
+    echo -e "\t    process an update by fetching them."
+    echo -e ""
+    echo -e "\ttek help"
+    echo -e "\t    Displays this help."
+}
+
 if [ $# == 1 ]
 then
     if [ $1 = "update" ]
     then
 	cd /usr/bin/epitech-tests/;
 	git pull origin master;
+    elif [ $1 == "help" ]
+    then
+	displayHelp;
     else
 	FPATH=/usr/bin/epitech-tests/tek2/piscine/$1;
 	rm -rf /tmp/epitech-tests;
@@ -25,5 +48,5 @@ then
 	nodeunit --reporter=nested $FPATH/tests.js | egrep -v "Assertion Message:"
     fi
 else
-    echo "you must enter the day name"
+    displayHelp
 fi
