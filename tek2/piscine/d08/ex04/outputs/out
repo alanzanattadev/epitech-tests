@@ -1,0 +1,242 @@
+Droid 'Captain' Activated$
+Droid 'Lieutenant' Activated$
+Droid 'Sergeant' Activated$
+Droid 'Caporal' Activated$
+Droid 'Major' Activated$
+Test 1:$
+false == false: OK$
+$
+Test 2:$
+Expected : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Free$
+[1] : Free$
+[2] : Free$
+[3] : Free$
+[4] : Free$
+Speed : 0, Energy 300$
+Your     : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Free$
+[1] : Free$
+[2] : Free$
+[3] : Free$
+[4] : Free$
+Speed : 0, Energy 300$
+Result   : OK$
+$
+Test 3:$
+Expected : Carrier '' Droid(s) on-board:$
+[0] : Free$
+[1] : Free$
+[2] : Free$
+[3] : Free$
+[4] : Free$
+Speed : 0, Energy 300$
+Your     : Carrier '' Droid(s) on-board:$
+[0] : Free$
+[1] : Free$
+[2] : Free$
+[3] : Free$
+[4] : Free$
+Speed : 0, Energy 300$
+Result   : OK$
+$
+Test 4:$
+Expected : 0$
+Your     : 0$
+Result   : OK$
+$
+Test 5:$
+Expected : 0$
+Your     : 0$
+Result   : OK$
+$
+Test 6:$
+0 == 0: OK$
+$
+Test 7:$
+0 == 0: OK$
+$
+Test 8:$
+0 == 0: OK$
+$
+Test 9:$
+0 == 0: OK$
+$
+Test 10:$
+0 == 0: OK$
+$
+Test 11:$
+Expected : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Captain', Standing by, 50$
+[1] : Droid 'Lieutenant', Standing by, 50$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 50, Energy 300$
+Your     : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Captain', Standing by, 50$
+[1] : Droid 'Lieutenant', Standing by, 50$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 50, Energy 300$
+Result   : OK$
+$
+Test 12:$
+Expected : Droid 'Lieutenant', Standing by, 50$
+Your     : Droid 'Lieutenant', Standing by, 50$
+Result   : OK$
+$
+Test 13:$
+Expected : Droid 'Captain', Standing by, 50$
+Your     : Droid 'Captain', Standing by, 50$
+Result   : OK$
+$
+Test 14:$
+Expected : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Lieutenant', Standing by, 50$
+[1] : Free$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 60, Energy 300$
+Your     : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Lieutenant', Standing by, 50$
+[1] : Free$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 60, Energy 300$
+Result   : OK$
+$
+Test 15:$
+60 == 60: OK$
+$
+Test 16:$
+60 == 60: OK$
+$
+Test 17:$
+50 == 50: OK$
+$
+Test 18:$
+Expected : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Lieutenant', Standing by, 50$
+[1] : Droid 'Captain', Standing by, 50$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 50, Energy 300$
+Your     : Carrier 'Yellow submarine' Droid(s) on-board:$
+[0] : Droid 'Lieutenant', Standing by, 50$
+[1] : Droid 'Captain', Standing by, 50$
+[2] : Droid 'Sergeant', Standing by, 50$
+[3] : Droid 'Caporal', Standing by, 50$
+[4] : Droid 'Major', Standing by, 50$
+Speed : 50, Energy 300$
+Result   : OK$
+$
+Test 19:$
+ == : OK$
+$
+Test 20:$
+300 == 300: OK$
+$
+Test 21:$
+100 == 100: OK$
+$
+Test 22:$
+90 == 90: OK$
+$
+Test 23:$
+0 == 0: OK$
+$
+Test 24:$
+Yellow submarine == Yellow submarine: OK$
+$
+Test 25:$
+USS Enterprise == USS Enterprise: OK$
+$
+Test 26:$
+300 == 300: OK$
+$
+Test 27:$
+600 == 600: OK$
+$
+Test 28:$
+300 == 300: OK$
+$
+Test 29:$
+230 == 230: OK$
+$
+Test 30:$
+150 == 150: OK$
+$
+Test 31:$
+600 == 600: OK$
+$
+Test 32:$
+0 == 0: OK$
+$
+Test 33:$
+80 == 80: OK$
+$
+Test 34:$
+600 == 600: OK$
+$
+Test 35:$
+false == false: OK$
+$
+Test 36:$
+600 == 600: OK$
+$
+Test 37:$
+true == true: OK$
+$
+Test 38:$
+558 == 558: OK$
+$
+Test 39:$
+60 == 60: OK$
+$
+Test 40:$
+60 == 60: OK$
+$
+Test 41:$
+60 == 60: OK$
+$
+Droid 'Captain' Destroyed$
+Droid 'Sergeant' Destroyed$
+Droid 'Caporal' Destroyed$
+Droid 'Major' Destroyed$
+Droid 'Commander' Activated$
+Droid 'Sergent' Activated$
+Droid 'Troufiont' Activated$
+Droid 'Groupie' Activated$
+Droid 'BeerHolder' Activated$
+500$
+80$
+70$
+Carrier 'HellExpress' Droid(s) on-board:$
+[0] : Droid 'Commander', Standing by, 50$
+[1] : Free$
+[2] : Free$
+[3] : Droid 'Groupie', Standing by, 50$
+[4] : Droid 'BeerHolder', Standing by, 50$
+Speed : 70, Energy 222$
+Carrier 'HellExpress' Droid(s) on-board:$
+[0] : Droid 'Commander', Standing by, 50$
+[1] : Free$
+[2] : Free$
+[3] : Droid 'Groupie', Standing by, 50$
+[4] : Droid 'BeerHolder', Standing by, 50$
+Speed : 70, Energy 222$
+Carrier 'HellExpress' Droid(s) on-board:$
+[0] : Droid 'Commander', Standing by, 50$
+[1] : Free$
+[2] : Free$
+[3] : Free$
+[4] : Free$
+Speed : 90, Energy 13$
+Droid 'Commander' Destroyed$
+$
+OK !$
