@@ -7,10 +7,12 @@ var fs = require('fs');
 Error.prepareStackTrace = function(error, stack) {
     var d = error.message;
     var ret = "";
-    d.forEach(function(part) {
-        var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
-	ret += part.value[color];
-    });
+    if (d) {
+	d.forEach(function(part) {
+            var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+	    ret += part.value[color];
+	});
+    }
     return ret;
 };
 
