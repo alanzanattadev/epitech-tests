@@ -17,10 +17,12 @@ then
 	    if test -e ${folder}/Makefile
 	    then
 		echo "compiling "$folder;
-		make -C $folder;
+		echo -n -e "\\033[1;35m";
+		make -C $folder > /dev/null;
+		echo -e "\\033[0;39m";
 	    fi
 	done
-	nodeunit --reporter=nested $FPATH/tests.js
+	nodeunit --reporter=nested $FPATH/tests.js | egrep -v "Assertion Message:"
     fi
 else
     echo "you must enter the day name"
