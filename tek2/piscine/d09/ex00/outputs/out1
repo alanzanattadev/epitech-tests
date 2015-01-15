@@ -1,0 +1,71 @@
+##############################
+Character(as Character)
+(creation)
+CharacterCharacter Created
+[ CloseAttack() ]
+CharacterCharacter strikes with a wood stick
+Value: 15
+Range = CLOSE
+PV = 100
+power = 90
+------------------------------
+[ RangeAttack() ]
+CharacterCharacter launches a stone
+Value: 10
+Range = CLOSE
+PV = 100
+power = 80
+------------------------------
+[ TakeDamage(100) ]
+CharacterCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 80
+------------------------------
+[ Heal() ]
+CharacterCharacter takes a potion
+Range = CLOSE
+PV = 50
+power = 80
+------------------------------
+>> Dummy actions to empty mana <<
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter strikes with a wood stick
+CharacterCharacter launches a stone
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+CharacterCharacter out of power
+------------------------------
+
+[ RestorePower() ]
+CharacterCharacter eats
+Range = CLOSE
+PV = 50
+power = 100
+------------------------------
+[ TakeDamage(10) ]
+CharacterCharacter takes 10 damage
+Range = CLOSE
+PV = 40
+power = 100
+------------------------------
+[ TakeDamage(90) ]
+CharacterCharacter out of combat
+Range = CLOSE
+PV = 0
+power = 100
+------------------------------

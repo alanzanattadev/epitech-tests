@@ -30,5 +30,31 @@ module.exports = testCase({
                 }
             });
         }
+    }),
+    'ex00': testCase({
+        'Character': function(test) {
+            exec("/tmp/epitech-tests/test00", function(err, stdout, stderr) {
+                if (err) {
+                    test.ok(false);
+                    test.done();
+                } else {
+                    fs.readFile("/tmp/epitech-tests/ex00/outputs/out1", function(err, data) {
+                        if (err) {
+                            test.ok(false);
+                        } else {
+                            if (data.toString() != stdout) {
+                                var d = diff.diffLines(stdout, data.toString());
+                                d.forEach(function(part) {
+                                    var color = part.added ? 'green' : part.removed ? 'red' : 'grey';
+                                    process.stderr.write(part.value[color]);
+                                });
+                            }
+                            test.equal(stdout, data.toString());
+                        }
+                        test.done();
+                    });
+                }
+            });
+        }
     })
 });
