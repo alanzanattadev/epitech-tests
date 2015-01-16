@@ -22,11 +22,17 @@ exports.getTestCase = function(name, execCmd, diffFile) {
             exec(execCmd, function(err, stdout, stderr) {
                 if (err) {
                     test.ok(false);
+		    console.log(stdout);
+		    console.log(stderr);
+		    console.log(err);
                     test.done();
                 } else {
                     fs.readFile(diffFile, function(err, data) {
                         if (err) {
                             test.ok(false);
+			    console.log(stdout);
+			    console.log(stderr);
+			    console.log(err);
                         } else {
                             if (data.toString() != stdout) {
 				var d;
