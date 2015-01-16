@@ -10,16 +10,13 @@
 * sudo npm install
 
 ## Usage
-```tek [OPTIONS...]``` : a small script that allows you to check your projects with some unittests.
+```tek [OPTIONS...]```: a small script that allows you to check your projects with some unittests.
 
-```tek [PROJECT NAME]```
-    Run all the tests for the given project and informs you of which tests doesn't pass the assertions. If you program pass all the tests, it does not mean that you gonna get all the points when corrected!
+```tek [PROJECT NAME]```: Run all the tests for the given project and informs you of which tests doesn't pass the assertions. If you program pass all the tests, it does not mean that you gonna get all the points when corrected!
 
-```tek update```
-        Check if new tests are available, and if so process an update by fetching them.
+```tek update```: Check if new tests are available, and if so process an update by fetching them.
 
-```tek help```
-        Displays this help.
+```tek help```: Displays this help.
 
 ## Add tests
 In the folder of the test (ex: tek2/piscine/d09/), create a new folder corresponding to the part of the projet tested (ex: ex00) and add a Makefile to compile this part of the project with all the tests.
