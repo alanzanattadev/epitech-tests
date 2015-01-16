@@ -1,22 +1,18 @@
 #!/bin/sh
 
-function displayHelp {
-    echo -e "tek [OPTIONS...] : a small script that allows you to"
-    echo -e "check your projects with some unittests."
+function displayHelp { # 80 columns format                                                   "
+    echo -e "\E[1mtek [\E[4mOPTIONS\E[0;1m...]\E[0m : a small script that lets you check your projects with some"
+    echo -e "unit tests."
     echo -e ""
-    echo -e "\ttek [PROJECT NAME]"
-    echo -e "\t    Run all the tests for the given project and"
-    echo -e "\t    informs you of which tests doesn't pass the"
-    echo -e "\t    assertions."
-    echo -e "\t    If you program pass all the tests, it does"
-    echo -e "\t    not mean that you gonna get all the points"
-    echo -e "\t    when corrected!"
+    echo -e "\t\E[1mtek [\E[4mPROJECT NAME\E[0;1m]\E[0m"
+    echo -e "\t    Run all the tests for the given project and shows you the failures."
+    echo -e "\t    Passing all the tests does not guarantee a perfect mark."
     echo -e ""
-    echo -e "\ttek update"
-    echo -e "\t    Check if new tests are available, and if so"
-    echo -e "\t    process an update by fetching them."
+    echo -e "\t\E[1mtek \E[4mupdate\E[0m"
+    echo -e "\t    Check if new tests or features are available, in which case an update is"
+    echo -e "\t    performed."
     echo -e ""
-    echo -e "\ttek help"
+    echo -e "\t\E[1mtek \E[4mhelp\E[0m"
     echo -e "\t    Displays this help."
 }
 
