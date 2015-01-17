@@ -37,7 +37,7 @@ then
 	    then
 		echo "compiling "$folder;
 		echo -n -e "\\033[1;35m";
-		make -C $folder > /dev/null;
+		make -C $folder;
 		echo -e "\\033[0;39m";
 	    fi
 	done
