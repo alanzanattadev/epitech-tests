@@ -38,6 +38,8 @@ exports.getTestCase = function(name, execCmd, diffFile) {
                 var d;
                 if (stdout != "")
                   d = diff.diffLines(stdout, data.toString());
+                else
+                  d = diff.diffLines(stdout, "No output provided.");
                 test.ok(false, d);
               } else {
                 test.ok(true);
