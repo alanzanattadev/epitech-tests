@@ -1,0 +1,64 @@
+The toy named "Alien plushy" is of type "alien toy" and looks like this:
+         _|_
+   ,_.-_' _ '_-._,
+    \ (.)(.)(.) /
+ _,  '\_-===-_/'  ,_
+>  |----"""""----|  <
+'""'--/   _-@-\--'""'
+     |===L_I===|
+      \       /
+      _\__|__/_
+     '""""'""""'
+
+The toy named "toy" is of type "basic toy" and looks like this:
+
+The toy named "Alien plushy clone" is of type "alien toy" and looks like this:
+         _|_
+   ,_.-_' _ '_-._,
+    \ (.)(.)(.) /
+ _,  '\_-===-_/'  ,_
+>  |----"""""----|  <
+'""'--/   _-@-\--'""'
+     |===L_I===|
+      \       /
+      _\__|__/_
+     '""""'""""'
+
+The toy named "Mutated alien plushy" is of type "alien toy" and looks like this:
+        __.,,------.._
+     ,'"   _      _   "`.
+    /.__, ._  -=- _"`    Y
+   (.____.-.`      ""`   j
+    VvvvvvV`.Y,.    _.,-'       ,     ,     ,
+        Y    ||,   '"\         ,/    ,/    ./
+        |   ,'  ,     `-..,'_,'/___,'/   ,'/   ,
+   ..  ,;,,',-'"\,'  ,  .     '     ' ""' '--,/    .. ..
+ ,'. `.`---'     `, /  , Y -=-    ,'   ,   ,. .`-..||_|| ..
+ff\\`. `._        /f ,'j j , ,' ,   , f ,  \=\ Y   || ||`||_..
+l` \` `.`."`-..,-' j  /./ /, , / , / /l \   \=\l   || `' || ||...
+ `  `   `-._ `-.,-/ ,' /`"/-/-/-/-"'''"`.`.  `'.\--`'--..`'_`' || ,
+            "`-_,',  ,'  f    ,   /      `._    ``._     ,  `-.`'//         ,
+          ,-"'' _.,-'    l_,-'_,,'          "`-._ . "`. /|     `.'\ ,       |
+        ,',.,-'"          \=) ,`-.         ,    `-'._`.V |       \ // .. . /j
+        |f\\               `._ )-."`.     /|         `.| |        `.`-||-\\/
+        l` \`                 "`._   "`--' j          j' j          `-`---'
+         `  `                     "`_,-','/       ,-'"  /
+                                 ,'",__,-'       /,, ,-'
+                                 Vvv'            VVv'
+
+                     -=> Philip Kaulfuss <=-
+
+The toy named "MISSINGNO" is of type "broken toy" and looks like this:
+ERROR
+The toy named "Alien plushy clone" is of type "alien toy" and looks like this:
+         _|_
+   ,_.-_' _ '_-._,
+    \ (.)(.)(.) /
+ _,  '\_-===-_/'  ,_
+>  |----"""""----|  <
+'""'--/   _-@-\--'""'
+     |===L_I===|
+      \       /
+      _\__|__/_
+     '""""'""""'
+
