@@ -23,7 +23,7 @@ elif [ $1 = "help" ]
 then
   displayHelp;
 else
-  DAY=$(pwd | egrep -o '(?<=_)?([^_]*)$');
+  DAY=$(pwd | sed 's/.*[_\/]\([^_\/]*\)$/\1/');
   FPATH=/usr/bin/epitech-tests/tek2/piscine/$DAY;
   rm -rf /tmp/epitech-tests;
   mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
