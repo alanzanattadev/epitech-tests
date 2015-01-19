@@ -1,12 +1,12 @@
 BINPATH ?= ..
-NAME ?= test02
+NAME ?= test04
 BIN ?= $(BINPATH)/$(NAME)
-EX ?= ex02
+EX ?= ex04
 TESTSRCS ?= *.cpp
 EXSRCS ?= ../srcs/$(EX)/*.cpp
-INCLUDES ?= -I../srcs/$(EX)/ -I./
-CXXFLAGS ?= -W -Wall -Wextra -Werror -g
-LDFLAGS ?= -W -Wall -Wextra -Werror -g
+INCLUDES ?= -I../srcs/$(EX)/
+CXXFLAGS ?= -W -Wall -Wextra -Werror
+LDFLAGS ?= -W -Wall -Wextra -Werror
 
 all: $(NAME)
 
