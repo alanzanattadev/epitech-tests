@@ -15,34 +15,29 @@ function displayHelp { # 80 columns format                                      
     echo -e "\t\E[1mtek \E[4mhelp\E[0m"
     echo -e "\t    Displays this help."
 }
-
-if [ $# == 1 ]
+if [ $1 = "update" ]
 then
-    if [ $1 = "update" ]
-    then
-	cd /usr/bin/epitech-tests/;
-	git pull origin master;
-    elif [ $1 == "help" ]
-    then
-	displayHelp;
-    else
-	FPATH=/usr/bin/epitech-tests/tek2/piscine/$1;
-	rm -rf /tmp/epitech-tests;
-	mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
-	cp -r ./ /tmp/epitech-tests/srcs &&
-	cp -r $FPATH/* /tmp/epitech-tests &&
-	for folder in $(find /tmp/epitech-tests/ -maxdepth 1 -mindepth 1 -type d)
-	do
-	    if test -e ${folder}/Makefile
-	    then
-		echo "compiling "$folder;
-		echo -n -e "\\033[1;35m";
-		make -C $folder;
-		echo -e "\\033[0;39m";
-	    fi
-	done
-	nodeunit --reporter=nested $FPATH/tests.js | egrep -v "Assertion Message:"
-    fi
+  cd /usr/bin/epitech-tests/;
+  git pull origin master;
+elif [ $1 = "help" ]
+then
+  displayHelp;
 else
-    displayHelp
+  DAY=$(pwd | egrep -o '(?<=_)?([^_]*)$');
+  FPATH=/usr/bin/epitech-tests/tek2/piscine/$DAY;
+  rm -rf /tmp/epitech-tests;
+  mkdir /tmp/epitech-tests && mkdir /tmp/epitech-tests/srcs &&
+  cp -r ./ /tmp/epitech-tests/srcs &&
+  cp -r $FPATH/* /tmp/epitech-tests &&
+  for folder in $(find /tmp/epitech-tests/ -maxdepth 1 -mindepth 1 -type d)
+  do
+    if test -e ${folder}/Makefile
+    then
+	   echo "compiling "$folder;
+	   echo -n -e "\\033[1;35m";
+	   make -C $folder;
+	   echo -e "\\033[0;39m";
+    fi
+  done
+  nodeunit --reporter=nested $FPATH/tests.js | egrep -v "Assertion Message:"
 fi
