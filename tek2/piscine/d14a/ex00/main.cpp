@@ -27,7 +27,7 @@ static void testException(void (*exceptionThrower)(std::string const&, std::stri
   try {
     exceptionThrower(message, component);
   } catch (NasaError& ne) { // Si emacs ne marche pas, au pire on a ça.
-    std::cout << ne.getComponent() << std::endl;
+    std::cout << ne.getComponent() << ": \"" << ne.what() << "\"" << std::endl;
   }
 }
 
