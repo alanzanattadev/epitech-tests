@@ -17,8 +17,8 @@ Error.prepareStackTrace = function(error, stack) {
 };
 
 exports.getTestCase = function(name, execCmd, diffFile) {
-  return ({
-    name: function(test) {
+    ret = {};
+    ret[name] = function(test) {
       exec(execCmd, function(err, stdout, stderr) {
         if (err) {
           test.ok(false);
@@ -49,6 +49,6 @@ exports.getTestCase = function(name, execCmd, diffFile) {
           });
         }
       });
-    }
-  });
+    };
+    return ret;
 }
