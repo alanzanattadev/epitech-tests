@@ -4,7 +4,7 @@ BIN ?= $(BINPATH)/$(NAME)
 EX ?= ex03
 TESTSRCS ?= *.cpp
 EXSRCS ?= ../srcs/$(EX)/*.cpp
-INCLUDES ?= -I../srcs/$(EX)/
+INCLUDES ?= -I../srcs/$(EX)/ -I.
 CXXFLAGS ?= -W -Wall -Wextra -Werror
 LDFLAGS ?= -W -Wall -Wextra -Werror
 
