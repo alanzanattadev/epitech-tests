@@ -1,0 +1,7 @@
+Error: Invalid input stream.
+LogicError: `missionName` should be at least 1 char.
+LogicError: `userName` should be at least 1 char.
+LogicError: Exceed max number of users added.
+User junk not found.
+User junk not found.
+junk INVALID MESSAGE
