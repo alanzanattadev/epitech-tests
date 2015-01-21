@@ -1,0 +1,39 @@
+tricheur:navet_m:sale con
+navet_m:tricheur:sale con
+navet_m:sale con:tricheur
+tricheur:sale con:navet_m
+
+sale con
+navet_m
+1
+navet_m
+
+tricheur
+sale con
+1
+tricheur
+
+tricheursale con
+sale connavet_m
+tricheurtricheur
+tricheursale connavet_m
+
+42:1337:-666
+1337:42:-666
+1337:-666:42
+42:-666:1337
+
+-666
+-666
+1
+-666
+
+42
+1337
+1
+1337
+
+-624
+671
+84
+713
