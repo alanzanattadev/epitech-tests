@@ -9,5 +9,6 @@ module.exports = testCase({
   'ex02': testCase(tests.getTestCase("Arthur il est trop beau !!",    		"/tmp/epitech-tests/test02",		"/tmp/epitech-tests/ex02/outputs/out1")),
   'ex03': testCase(tests.getTestCase("WTF",    		"/tmp/epitech-tests/test03",		"/tmp/epitech-tests/ex03/outputs/out1")),
   'ex04': testCase(tests.getTestCase("Une size d'array est un int",    		"/tmp/epitech-tests/test04",		"/tmp/epitech-tests/ex04/outputs/out1")),
-  'ex05': testCase(tests.getTestCase("array<T>",    		"/tmp/epitech-tests/test05",		"/tmp/epitech-tests/ex05/outputs/out1"))
+  'ex05': testCase(tests.getTestCase("array<T>",    		"/tmp/epitech-tests/test05",		"/tmp/epitech-tests/ex05/outputs/out1")),
+  'ex06': testCase(tests.getTestCase("Tuple",    		"/tmp/epitech-tests/test06",		"/tmp/epitech-tests/ex06/outputs/out1"))
 });

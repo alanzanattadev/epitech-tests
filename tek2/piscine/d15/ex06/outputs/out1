@@ -1,0 +1,6 @@
+[TUPLE [int:5] [float:5.001f]]
+[TUPLE [float:3.14f] [string:"Segmentation fault"]]
+[TUPLE [string:"Erreur de segmentation"] [???]]
+[TUPLE [???] [???]]
+[TUPLE [???] [???]]
+[TUPLE [int:5] [int:6]]
