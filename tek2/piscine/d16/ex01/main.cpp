@@ -1,6 +1,6 @@
 
 #include "DomesticKoala.h"
-#include "KoalaAction.hh"
+#include "KoalaAction.h"
 #include <iostream>
 
 int	main()
