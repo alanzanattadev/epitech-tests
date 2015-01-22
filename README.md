@@ -1,3 +1,8 @@
+# Credits
+
+Tests from d09 (from ex00 to ex04) were written by [Maxime Didier](https://plus.google.com/108527613900262869397).
+All the other tests were written by [Louis Brunner](https://github.com/Hyrrmadr).
+
 # epitech-tests
 
 ## Install
