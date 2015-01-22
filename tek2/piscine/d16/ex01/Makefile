@@ -5,8 +5,8 @@ EX ?= ex01
 TESTSRCS ?= *.cpp
 EXSRCS ?= ../srcs/$(EX)/*.cpp
 INCLUDES ?= -I../srcs/$(EX)/ -I./
-CXXFLAGS ?= -W -Wall -Wextra -Werror
-LDFLAGS ?= -W -Wall -Wextra -Werror
+CXXFLAGS ?= -W -Wall -Wextra -Werror -g
+LDFLAGS ?= -W -Wall -Wextra -Werror -g
 
 all: $(NAME)
 
