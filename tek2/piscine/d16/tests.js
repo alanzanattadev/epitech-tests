@@ -16,5 +16,6 @@ module.exports = testCase({
       "gcc -W -Wall -Wextra /tmp/epitech-tests/out2.c -o /tmp/epitech-tests/out2;" +
       "/tmp/epitech-tests/out2 < /tmp/epitech-tests/ex03/inputs/in1",
     "/tmp/epitech-tests/ex03/outputs/out1")),
-  'ex04': testCase(tests.getTestCase("Ratatard",		"/tmp/epitech-tests/test04",		"/tmp/epitech-tests/ex04/outputs/out1"))
+  'ex04': testCase(tests.getTestCase("Ratatard",		"/tmp/epitech-tests/test04",		"/tmp/epitech-tests/ex04/outputs/out1")),
+  'ex05': testCase(tests.getTestCase("MutantStack",		"/tmp/epitech-tests/test05",		"/tmp/epitech-tests/ex05/outputs/out1"))
 });
