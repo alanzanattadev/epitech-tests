@@ -8,7 +8,7 @@ EXSRCS1 = $(BINPATH)/srcs/$(EX)/Cesar.cpp
 EXSRCS2 = $(BINPATH)/srcs/$(EX)/*.cpp
 TESTSRCS1 ?= main1.cpp
 TESTSRCS2 ?= main2.cpp
-INCLUDES ?= -I../srcs/$(EX)/
+INCLUDES ?= -I../srcs/$(EX)/ -I./
 CXXFLAGS ?= -W -Wall -Wextra -Werror
 LDFLAGS ?= -W -Wall -Wextra -Werror
 
