@@ -1,20 +1,38 @@
 BINPATH ?= ..
-NAME ?= test03
-BIN ?= $(BINPATH)/$(NAME)
+NAME1 ?= test03-1
+NAME2 ?= test03-2
+BIN1 ?= $(BINPATH)/$(NAME1)
+BIN2 ?= $(BINPATH)/$(NAME2)
 EX ?= ex03
-TESTSRCS ?= *.cpp
-EXSRCS ?= ../srcs/$(EX)/*.cpp
+EXSRCS1 = $(BINPATH)/srcs/$(EX)/*.cpp
+EXSRCS2 = $(BINPATH)/srcs/$(EX)/*.cpp
+TESTSRCS1 ?= main1.cpp
+TESTSRCS2 ?= main2.cpp
 INCLUDES ?= -I../srcs/$(EX)/ -I./
 CXXFLAGS ?= -W -Wall -Wextra -Werror
 LDFLAGS ?= -W -Wall -Wextra -Werror
 
-all: $(NAME)
+all:
+	make -C . bin1
+	make -C . bin2
 
-$(NAME):
-	g++ -o $(BIN) $(TESTSRCS) $(EXSRCS) $(INCLUDES) $(LDFLAGS)
+bin1: $(NAME1)
+	echo "bin1"
+
+bin2: $(NAME2)
+	echo "bin2"
+
+$(NAME1):
+	echo "name1"
+	g++ -o $(BIN1) $(TESTSRCS1) $(EXSRCS1) $(INCLUDES) $(LDFLAGS)
+
+$(NAME2):
+	echo "name2"
+	g++ -o $(BIN2) $(TESTSRCS2) $(EXSRCS2) $(INCLUDES) $(LDFLAGS)
 
 fclean:
-	rm $(BIN)
+	rm $(BIN1)
+	rm $(BIN2)
 
 re: fclean all
 
