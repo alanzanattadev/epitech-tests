@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 function displayHelp { # 80 columns format                                                   "
     echo -e "\E[1mtek [\E[4mOPTIONS\E[0;1m...]\E[0m : a small script that lets you check your projects with some"
